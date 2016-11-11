@@ -1,33 +1,113 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="/style/style.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/node_modules/tether/dist/css/tether.min.css">
-    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/style/style.css">
-  </head>
-  <body>
-  <script>
+<head>
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/node_modules/tether/dist/css/tether.min.css">
+  <link rel="stylesheet" href="/css/app.css">
 
-  var username='lmills360';
-  var TARGET_DATE = new Date('2016-11-07');
+  <script src="/node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
+  <script src="/node_modules/blueimp-md5/js/md5.js"></script>
 
-var FACILITIES_URL = 'http://127.0.0.1:55542/cgi-bin/WebObjects/VAQCService_201610_01.woa/ra/DialysisFacility.json';
-var RECEIPTS_URL = 'http://127.0.0.1:55542/cgi-bin/WebObjects/VAQCService_201610_01.woa/ra/DataReceipt.json';
-var WEEKLY_URL = 'http://127.0.0.1:55542/cgi-bin/WebObjects/VAQCService_201610_01.woa/ra/WeeklyReports.json';
-var MGMT_URL = 'http://127.0.0.1:55542/cgi-bin/WebObjects/VAQCService_201610_01.woa/ra/ManagementReports.json';
-var REPORT_BATCHES_URL = 'http://127.0.0.1:55542/cgi-bin/WebObjects/VAQCService_201610_01.woa/ra/ReportBatches.json';
-var URL_BASE = 'http://127.0.0.1:55542/cgi-bin/WebObjects/VAQCService_201610_01.woa/ra';
+  <script src="/va-integration.js">
 
 
+  </script>
 
-    </script>
-    <div id="VAIntegrationDemo"></div>
-  </body>
+</head>
+<body>
 
-<script src="/node_modules/tether/dist/js/tether.min.js"></script>
-<script src="/node_modules/jquery/dist/jquery.min.js"></script>
-<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
-  <script src="/src/index.js"></script>
+  <div class="container-fluid" id="VAIntegrationDemo" >
+    <div class="col-xs-12 col-md-8 offset-md-2">
+      <div  class="card">
+        <div class="card-header">Vasc-Alert Javascript Integration Demo</div>
+        <div class="card-block">
+
+          <form>
+
+            <div class="form-group">
+              <label for="facilityAPIKey">Facility API Key</label>
+              <input type="text" class="form-control" name="systemAPIKey" id="systemAPIKey" placeholder="System API Key" value="binnacle-chaser-cowbird-violist" />
+            </div>
+
+            <div class="form-group">
+              <label for="userId">User ID</label>
+              <input type="text" class="form-control" name="userId" id="userId" placeholder="User ID" value="localuser" />
+            </div>
+            <div class="form-group">
+              <label for="facilityId">Facility Id</label>
+              <input type="text" class="form-control" name="facilityId" id="facilityId" placeholder="Facility ID" value="155" />
+            </div>
+
+
+            <div class="form-group">
+              <label for="mrn">MRN</label>
+              <input type="text" class="form-control" name="mrn" id="mrn" placeholder="MRN (patient you are requesting info on)" value="VA-9397511KEE2E2E" />
+            </div>
+
+            <div class="form-group">
+              <label for="requestTime">Request Time</label>
+              <input type="text" readonly class="form-control" name="requestTime" id="requestTime" placeholder="Request Time"  />
+            </div>
+
+
+            <div class="form-group">
+              <label for="checksum">Checksum</label>
+              <input type="text" readonly class="form-control" name="checksum" id="checksum" placeholder="request checksum"  />
+            </div>
+
+            <div class="form-group">
+            <label for="request">Encoded Post Request</label>
+            <textarea rows="5" readonly class="form-control" name="postreq" id="postreq" placeholder="POST request" >
+            </textarea>
+            </div>
+
+            <script>
+         $('#requestTime').val(new Date);
+
+
+function generateChecksum(vals) {
+  //(((FACILITY_ID + USER_ID) + ( API KEY + USER_ID ) + MRN) + API KEY + REQUEST TIME)
+  return md5(md5(md5( vals["FACILITY_ID"] + vals["USER_ID"]) + md5(vals["SYSTEM_API_KEY"] + vals["USER_ID"] ) + vals["MRN"]) + vals["SYSTEM_API_KEY"] + vals["REQUEST_TIME"]);
+
+}
+
+function collectValues(){
+  var requestFields = {};
+  requestFields["SYSTEM_API_KEY"] = $("#systemAPIKey").val();
+  requestFields["FACILITY_ID"] = $("#facilityId").val();
+  requestFields["USER_ID"] = $("#userId").val();
+  requestFields["MRN"] = $("#mrn").val();
+  requestFields["REQUEST_TIME"] = $("#requestTime").val();
+  $('#checksum').val(generateChecksum(requestFields));
+  return requestFields;
+}
+
+
+function encodedPostRequest() {
+  var FIELDS = ["SYSTEM_API_KEY", "FACILITY_ID", "USER_ID", "MRN", "REQUEST_TIME"];
+  var rdata = collectValues();
+  var encodedRdata = FIELDS.map((f) => { return f+"="+encodeURIComponent(rdata[f]); });
+
+  return encodedRdata.join("&");
+}
+
+
+
+
+         $('#postreq').val(encodedPostRequest());
+            </script>
+
+          </form>
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
 </html>
