@@ -9,6 +9,10 @@
   <script src="/node_modules/jquery/dist/jquery.min.js"></script>
   <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
   <script src="/node_modules/blueimp-md5/js/md5.js"></script>
+  <script src="/node_modules/dateformat/lib/dateformat.js"></script>
+  <script src="/node_modules/axios/dist/axios.min.js"></script>
+
+
 
   <script src="/va-integration.js">
 
@@ -24,7 +28,7 @@
         <div class="card-header">Vasc-Alert Javascript Integration Demo</div>
         <div class="card-block">
 
-          <form action="http://127.0.0.1:5442/cgi-bin/WebObjects/VA7_201609_01.woa/wa/Integration/patientDetail" method="POST">
+          <form  action= "http://127.0.0.1:5442/cgi-bin/WebObjects/VA7_201609_01.woa/wa/Integration/patientDetail" method="POST">
 
             <div class="form-group">
               <label for="facilityAPIKey">Facility API Key</label>
@@ -52,7 +56,7 @@
 
                 <div class="form-group">
                   <label for="mrn">MRN</label>
-                  <input type="text" class="form-control" name="mrn" id="mrn" placeholder="MRN (patient you are requesting info on)" value="VA-9397511KEE2E2E" aria-describedby="MRN_HELP"/>
+                  <input type="text" class="form-control" name="mrn" id="mrn" placeholder="MRN (patient you are requesting info on)" value="VA-2724411KEF90B7" aria-describedby="MRN_HELP"/>
 
 
                   <p id="MRN_HELP" class="form-text text-muted">The MRN (Medical Record Number) is the unique patient identifier that the facility uses.</p>
@@ -86,9 +90,15 @@
                   <p id="POSTREQ_HELP" class="form-text text-muted">This is an example of the data to be included in the POST request. It is constructed using encodeURIComponent() in javascript, but any URI encoding scheme will work.</p>
                 </div>
 
+<button  class="btn btn-primary float-right" onClick="doSubmit()">Send Request</button>
+<!--a onclick="submitAjax();" class="btn btn-primary">Submit (Ajax)</a-->
+<div class=" " role="alert" id="submitalert"></div>
+</form>
                 <script>
-                 $('#requestTime').val(new Date);
+                 $('#requestTime').val(dateFormat(new Date, "yyyy-mm-dd HH:MM:ss"));
 
+var appBase = "http://127.0.0.1:5442/cgi-bin/WebObjects/VA7_201609_01.woa";
+var action = appBase + "/wa/Integration/patientDetail";
 
                  function generateChecksum(vals) {
 
@@ -129,14 +139,28 @@ function doSubmit(){
   submit();
 }
 
+function submitAjax(){
+  $("#submitalert").className = " ";
+  var config = {
+  headers: {'X-My-Custom-Header': 'Header-Value'}
+};
+axios.post(action, encodedPostRequest(), config)
+  .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (error) {
+    $("#submitalert").className = "alert alert-danger";
+    $("#submitalert").val(error)
+    console.log(error);
+  });
+}
+
 
 
 $('#postreq').val(encodedPostRequest());
 </script>
 
 
-<button  class="btn btn-primary float-right" onClick="doSubmit()">Send Request</button>
-</form>
 
 
 
