@@ -28,9 +28,9 @@
         <div class="card-header">Vasc-Alert Javascript Integration Demo</div>
         <div class="card-block">
 
-          <form  id="integrationform" onsubmit="get_action(this)" method="POST">
-
-            <div class="form-group">
+          <form  action = "https://www.vasc-alert.com/VA/WebObjects/VA7Beta.woa/wa/Integration/patientDetail" id="integrationform"  method="POST">
+          <!--form action = "http://127.0.0.1:5442/cgi-bin/WebObjects/VA7_201611_01.woa/wa/Integration/patientDetail" id="integrationform"  method="POST"-->
+              <div class="form-group">
               <label for="facilityAPIKey">Facility API Key</label>
               <input type="text" class="form-control" name="systemAPIKey" id="systemAPIKey" placeholder="System API Key" value="23c0ef38-ff23-421e-a716-0b75a54f21a9" aria-describedby="APIKEY_HELP"/>
               <p id="APIKEY_HELP" class="form-text text-muted">This key identifies your system to our system and is used as part of the
@@ -93,13 +93,13 @@
 
               <script>
 
-// var base = "https://www.vasc-alert.com/VA/WebObjects/VA7Beta.woa/wa/Integration/patientDetail";
-var actionurl = "http://127.0.0.1:5442/cgi-bin/WebObjects/VA7_201611_01.woa/wa/Integration/patientDetail";
- $('#requestTime').val(dateFormat(new Date, "yyyy-mm-dd HH:MM:ss"));
-     function get_action(form) {
 
-        form.action = actionurl;
-    }
+
+
+function get_action(form) {
+  var actionurl = "https://www.vasc-alert.com/VA/WebObjects/VA7Beta.woa/wa/Integration/patientDetail";
+  form.action = actionurl;
+}
 
 
  function generateChecksum(vals) {
@@ -130,51 +130,17 @@ function encodedPostRequest() {
   return encodedRdata.join("&");
 }
 
-function submitAxios(el){
-  $("#submitalert").addClass(" alert alert-warning  alert-dismissible fade in");
-  $("#submitalert").html(" post data submitted to " + actionurl + " via axios" );
-    var config = {
-    headers: {'X-Vasc-Alert-Integration-APIKey': $("#systemAPIKey").val() }
-  };
-
- return  axios.post(actionurl, encodedPostRequest(), config).then (function(response){
-  console.log("success", response);
- }).catch(function(error){
-  console.log("error", error);
- });
-}
 
 
 
-function getDataJQuery(){
-  return $.post({
-    url: 'http://127.0.0.1:5442/cgi-bin/WebObjects/VA7_201611_01.woa/wa/Integration/patientDetail',
-    data: encodedPostRequest()
-  });
-}
-
-function handleData(data /* , textStatus, jqXHR */ ) {
-    console.log("JQUery return data: ", data);
-}
-
-function submitJQueryAjax() {
-
-  $("#submitalert").addClass(" alert alert-warning  alert-dismissible fade in");
-  $("#submitalert").html(" post data submitted to " + actionurl + " via JQuery ajax call");
-  getDataJQuery().done(handleData);
-
-}
-
-
-
+$('#requestTime').val(dateFormat(new Date, "yyyy-mm-dd HH:MM:ss"));
 $('#postreq').val(encodedPostRequest());
 </script>
 
                 <div class="container">
                 <div class="row">
-                <button  type="button" class="btn btn-primary float-right" >Send Request</button>
-                <!--button accesskey="x" type="button"  onclick="submitAxios(this)" class="btn btn-primary">Submit (Axios)</button>
-                <button accesskey="q" type="button"  onclick="submitJQueryAjax(this)" class="btn btn-primary">Submit (JQuery)</button-->
+                <button   class="btn btn-primary float-right" >Send Request</button>
+
                 </div>
                 <div class="row">
                 <div  role="alert" id="submitalert"></div>
