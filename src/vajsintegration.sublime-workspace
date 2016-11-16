@@ -1,0 +1,786 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"REQ",
+				"REQUEST_TIME"
+			],
+			[
+				"API",
+				"FACILITY_API_KEY"
+			],
+			[
+				"tog",
+				"toggleModal"
+			],
+			[
+				"Fet",
+				"fetchQCForCenterAndWeek"
+			],
+			[
+				"fetch",
+				"fetchQCForCenterAndWeek"
+			],
+			[
+				"te",
+				"text-xs-left"
+			],
+			[
+				"DAY",
+				"DAY_METRICS"
+			],
+			[
+				"filter",
+				"filteredBatches"
+			],
+			[
+				"batchTy",
+				"batchTypes"
+			],
+			[
+				"FETCH_RE",
+				"FETCH_REPORT_BATCHES"
+			],
+			[
+				"Card",
+				"CardText"
+			],
+			[
+				"ProductionK",
+				"ProductionKanbanLane"
+			],
+			[
+				"exp",
+				"expandButtonClass"
+			],
+			[
+				"fet",
+				"fetchMgmtRelease"
+			],
+			[
+				"mg",
+				"mgmtReleases"
+			],
+			[
+				"wee",
+				"weeklyReleases"
+			],
+			[
+				"w",
+				"weeklyReleases"
+			],
+			[
+				"data",
+				"dataReceipts"
+			],
+			[
+				"FE",
+				"FETCH_MGMT_REPORT_RELEASE"
+			],
+			[
+				"FETCH",
+				"FETCH_RECEIPTS"
+			],
+			[
+				"fa",
+				"facilities"
+			],
+			[
+				"Facili",
+				"FacilityList"
+			],
+			[
+				"fetchFaci",
+				"fetchFacilities"
+			],
+			[
+				"FETCH_FACI",
+				"FETCH_FACILITIES"
+			],
+			[
+				"map",
+				"mapStateToProps"
+			],
+			[
+				"combineRed",
+				"combineReducers"
+			],
+			[
+				"we",
+				"weeklyReports"
+			],
+			[
+				"par",
+				"parents"
+			],
+			[
+				"parentCen",
+				"parentcenterfk"
+			],
+			[
+				"pa",
+				"parentcenterfk"
+			],
+			[
+				"Po",
+				"PopoverContent"
+			],
+			[
+				"Pop",
+				"PopoverTitle"
+			],
+			[
+				"drill",
+				"drillDownLink"
+			],
+			[
+				"sco",
+				"scoreClass"
+			],
+			[
+				"tx",
+				"tx_analyzed"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 87,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/.gitignore",
+			"settings":
+			{
+				"buffer_size": 46,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/index.html",
+			"settings":
+			{
+				"buffer_size": 3869,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 282,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Welcome to Scala 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_91).\nType in expressions for evaluation. Or try :help.\n\nscala> import java.security.MessageDigest\nimport java.security.MessageDigest\n\nscala> val md5 = MessageDigest.getInstance(\"MD5\")\nmd5: java.security.MessageDigest =\nMD5 Message Digest from SUN, <initialized>\n\nscala> val SYSID = \"LARRY's SYSTEM\"\nSYSID: String = LARRY's SYSTEM\n\nscala> val APIKEY = \"12345isisufsdjsalsdk\"\nAPIKEY: String = 12345isisufsdjsalsdk\n\nscala> m.update(SYSID.getBytes(\"UTF-8\"))\n<console>:14: error: not found: value m\n       m.update(SYSID.getBytes(\"UTF-8\"))\n       ^\n\nscala> md5.update(SYSID.getBytes(\"UTF-8\"))\n\nscala> md5\nres2: java.security.MessageDigest =\nMD5 Message Digest from SUN, <in progress>\n\nscala> md5.digest()\nres3: Array[Byte] = Array(-78, -118, 92, -82, 74, -59, 28, 74, 25, -26, 120, -25, 7, -70, 123, -58)\n\nscala> SYSID.getBytes(\"UTF-8\")\nres4: Array[Byte] = Array(76, 65, 82, 82, 89, 39, 115, 32, 83, 89, 83, 84, 69, 77)\n\nscala> ",
+			"settings":
+			{
+				"buffer_size": 994,
+				"line_ending": "Unix",
+				"name": "*REPL* [scala]",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/css/app.css",
+			"settings":
+			{
+				"buffer_size": 42,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "scal",
+		"selected_items":
+		[
+			[
+				"scal",
+				"SublimeREPL: Scala"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/node_modules/blueimp-md5",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/node_modules/blueimp-md5/js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/src"
+	],
+	"file_history":
+	[
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/.editorconfig",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/webpack.config.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/package.json",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/README.md",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/facility.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/data_status.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/trend.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/reducers/reducer_weekly_stats.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/trend_list.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/report_batch_info.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/reducers/reducer_weekly_release.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/reducers/reducer_mgmt_release.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/facility_list.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/weekly_stats_detail.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/current_week.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/qc_header.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/qc_overview.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/reducers/reducer_report_batches.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/report_batch_detail.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/routes.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/production_kanban.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/report_batch_group.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/index.html",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/reducers/index.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/actions/index.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/reducers/reducer_facilities.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/reducers/reducer_receipts.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/weekly_stats_dashboard.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/stats_group.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/stats_group_detail.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/center_stats_for_week.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/data_issues_for_day.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/app.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/style/style.css",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/webpack.config.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/production_kanban_lane.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/reducers/reducer_facility_info.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/data_status_dashboard.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/production-status-spreadsheet.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/report-batch-detail.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/index.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/containers/flist.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/flist.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VA9/index.html",
+		"/Users/lmg42/Development/Eclise.luna.workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/VascAlertAdminREST.launch",
+		"/Users/lmg42/Development/Eclise.luna.workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/VascAlertAdmin (Production Db).launch",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/RECOVERY/vaonline8.20160916/VascAlertAdmin/.classpath",
+		"/Users/lmg42/Desktop/tech cost of acquisition",
+		"/Users/lmg42/Desktop/hfhs_file_ls.txt",
+		"/Users/lmg42/13005.DETWESTP.20160928140253.Unit_MACIN_20160927_213004.txt",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VascAlertAdmin/Resources/ReportBatchDetailSPA/src/components/summary.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VascAlertAdmin/Resources/ReportBatchDetailSPA/src/components/current_week2.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VascAlertAdmin/Resources/ReportBatchDetailSPA/src/components/trend.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VascAlertAdmin/Resources/ReportBatchDetailSPA/index.html",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VAEO8/Resources/VAEMR.eomodeld/index.eomodeld",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VAEO8/Resources/VAEMR.eomodeld/AbstractEncounter.plist",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VAEO8/Resources/VAEMR.eomodeld/DialysisTreatment.plist",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VAEO8/Resources/VAEMR.eomodeld/Intervention.plist",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VAEO8/Resources/VAEMR.eomodeld/OrphanIntervention.plist",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VAEO8/Resources/VAEMR.eomodeld/Referral.plist",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VAEO8/Resources/VAEMR.eomodeld/AccessEvent.plist",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VascAlertAdmin/Resources/ReportBatchDetailSPA/src/components/batch_header.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VascAlertAdmin/Resources/ReportBatchDetailSPA/src/components/report_file_display.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VascAlertAdmin/Resources/ReportBatchDetailSPA/src/components/batch_detail.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VascAlertAdmin/Resources/ReportBatchDetailSPA/src/components/qc_overview.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VascAlertAdmin/Resources/ReportBatchDetailSPA/src/components/qc_header.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/va8online_201410/VascAlertAdmin/Resources/ReportBatchDetailSPA/package.json",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAProductionService/Resources/ProductionStatusDashboard/.gitignore",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAProductionService/Resources/ProductionStatusDashboard/style/style.css",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/.classpath",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCMongo/.classpath",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/src/components/current_week.js",
+		"/Users/lmg42/Development/VascAlert/ClientData/RMA/20160815/201608150934.EXT026_Fresenius_VA_DETAIL_20160815.txt",
+		"/Users/lmg42/Development/VascAlert/ClientData/RMA/20160815/201608150934.EXT026_Fresenius_VASC_TREATMENTS_20160815.txt",
+		"/Users/lmg42/Development/VascAlert/ClientData/RMA/20160815/201608150934.EXT026_Fresenius_PT_OBS_20160815.txt",
+		"/Users/lmg42/Development/VascAlert/ClientData/RMA/20160815/201608150934.EXT026_Fresenius_PT_DEMOGRAPH_20160815.txt",
+		"/Users/lmg42/Development/VascAlert/ClientData/RMA/20160815/201608150934.EXT026_Fresenius_OLC_20160815.txt",
+		"/Users/lmg42/Development/VascAlert/ClientData/RMA/20160815/201608150934.EXT026_Fresenius_LABS_20160815.txt",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/src/components/trend.js",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/src/components/trend_list.js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/vaperl.20150618/utilities/LoadManagmentReportBatches.pl",
+		"/Users/lmg42/Development/VascAlert/ClientData/lanhamDialysisAccessCenter/Tarrant_Access_Center/tarrant294/307.ARLN.20160316153801.cpt_enc_details_report_From_03_09_2016_to_03_16_2016.csv",
+		"/Users/lmg42/Development/VascAlert/ClientData/lanhamDialysisAccessCenter/Tarrant_Access_Center/tarrant294/307.ARLN.20160316153815.cpt_summary_report_From_03_09_2016_to_03_16_2016.csv",
+		"/Users/lmg42/Development/VascAlert/ClientData/lanhamDialysisAccessCenter/Tarrant_Access_Center/tarrant294/307.ARLN.20160316153831.cpt_usage_details_report_From_03_09_2016_to_03_16_2016.csv",
+		"/Users/lmg42/Development/VascAlert/ClientData/RMA/20160815/201608121234.VascAlert_Facilities_20160728.csv",
+		"/Users/lmg42/Development/VascAlert/ClientData/RMA/20160815/201608150934.EXT026_ftp_rec_count_20160815.csv",
+		"/Users/lmg42/Development/VascAlert/ClientData/RMA/20160815/201608161500.All_FMC_Facilities_20160816.csv",
+		"/Users/lmg42/Development/VascAlert/ClientData/RMA/20160815/2765_5000300419_20160813.20160819171014.xml",
+		"/Users/lmg42/Development/VascAlert/ClientData/RMA/20160815/201608121417.VascAlert_Facilities_20160812.csv",
+		"/Users/lmg42/Development/VascAlert/ClientData/lanhamDialysisAccessCenter/Tarrant_Access_Center/tarrant294/307.ARLN.20160316153148.state_public_health_report_From_01_01_2016_to_03_16_2016.csv",
+		"/Users/lmg42/Development/VascAlert/ClientData/RMA/201608121234.VascAlert_Facilities_20160728.csv",
+		"/Users/lmg42/Development/VascAlert/ClientData/lanhamDialysisAccessCenter/Tarrant_Access_Center/tarrant294/307.ARLN.20160316150438.state_public_health_report_From_07_01_2015_to_12_31_2015.csv",
+		"/Users/lmg42/Development/VascAlert/ClientData/lanhamDialysisAccessCenter/Tarrant_Access_Center/tarrant294/307.ARLN.20160316150307.state_public_health_report_From_01_01_2015_to_06_30_2015.csv",
+		"/Users/lmg42/Development/VascAlert/ClientData/lanhamDialysisAccessCenter/Tarrant_Access_Center/tarrant294/307.ARLN.20160316150102.state_public_health_report_From_07_01_2014_to_12_31_2014.csv",
+		"/Users/lmg42/Development/VascAlert/ClientData/lanhamDialysisAccessCenter/Tarrant_Access_Center/tarrant294/307.ARLN.20160316145938.state_public_health_report_From_01_01_2014_to_06_30_2014.csv",
+		"/Users/lmg42/Development/VascAlert/ClientData/lanhamDialysisAccessCenter/Tarrant_Access_Center/tarrant294/307.ARLN.20160316145806.state_public_health_report_From_07_01_2013_to_12_31_2013.csv",
+		"/Users/lmg42/Development/VascAlert/ClientData/lanhamDialysisAccessCenter/Tarrant_Access_Center/tarrant294/307.ARLN.20160316141237.state_public_health_report_From_07_01_2012_to_12_31_2012.csv",
+		"/Users/lmg42/Development/VascAlert/ClientData/lanhamDialysisAccessCenter/Tarrant_Access_Center/tarrant294/307.ARLN.20160316141215.state_public_health_report_From_01_01_2012_to_06_30_2012.csv",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAReportinator/WebServerResources/node_modules/bootstrap/scss/_variables.scss",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAReportinator/WebServerResources/node_modules/tether/examples/chosen/index.html",
+		"/Users/lmg42/Desktop/VA7Dev.log",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/src/components/qc_header.js",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/src/index.js",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/src/components/current_week2.js",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/src/components/summary.js",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/src/components/app.js",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/src/components/trends.js",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/README.md",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/style/style.css",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/index.html",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/package.json",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/src/components/stats_list.js",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/src/components/history_stat.js",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/src/components/weekstats.js",
+		"/Users/lmg42/Development/VascAlert/VAQCApp/src/components/centersearch.js",
+		"/Users/lmg42/Development/VascAlert/VAQCMeteor/client/main.html",
+		"/Users/lmg42/Development/VascAlert/VAQCMeteor/run.sh",
+		"/Users/lmg42/Development/VascAlert/VAQStats/run.sh",
+		"/Users/lmg42/Development/Javascript/Presentation/spark-impress/index.html",
+		"/Users/lmg42/Development/Javascript/Presentation/spark-impress/README.md",
+		"/Users/lmg42/Development/VascAlert/Illumen/CPE/vax_module_1/mobile/slides/6VIzzL3KD1l.js",
+		"/Users/lmg42/Desktop/CPEScoreFix.scala",
+		"/Users/lmg42/Development/VascAlert/VAQCStats2/client/components/data_summary_item.js",
+		"/Users/lmg42/Development/VascAlert/VAQCStats2/client/components/data_summary.js",
+		"/Users/lmg42/Development/VascAlert/VAQCStats2/client/components/data_summary_header.js",
+		"/Users/lmg42/Development/VascAlert/VAQCStats2/client/components/weekday_totals.js",
+		"/Users/lmg42/Development/VascAlert/VAQCStats2/package.json",
+		"/Users/lmg42/Development/VascAlert/VAQCStats2/client/main.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"<current file>",
+			"",
+			"},\\n{",
+			"",
+			"h3"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"currentWeek",
+			"_.",
+			"_",
+			"FETCH_REPORT_BATCHES",
+			"class=",
+			"report-batch-detail",
+			"reducer_facilities",
+			"},",
+			"},{",
+			"yearMonth",
+			"year",
+			"readOnly",
+			"status",
+			"GenerateManagement",
+			"stylesheet",
+			"06/13/",
+			"distchildren",
+			",\t",
+			"lmg42@www:",
+			"h2",
+			"Class[",
+			"groupBy",
+			"ftypsum"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"className=",
+			"readonly",
+			",\\n    ",
+			"lmg42$ ",
+			"h3",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 87,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/.gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3869,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								465,
+								465
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/webpack.config.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 994,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								994,
+								994
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "scala",
+							"repl_id": "eb44b248739e4083b7afb5cd41afd933",
+							"repl_restart_args":
+							{
+								"cmd":
+								{
+									"linux":
+									[
+										"scala"
+									],
+									"osx":
+									[
+										"scala"
+									],
+									"windows":
+									[
+										"scala.bat",
+										"-i"
+									]
+								},
+								"cmd_postfix": "\n",
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"linux":
+									{
+										"EMACS": "1",
+										"PATH": "{PATH}:/usr/local/bin"
+									},
+									"osx":
+									{
+										"EMACS": "1",
+										"PATH": "{PATH}:/usr/local/bin"
+									},
+									"windows":
+									{
+										"EMACS": "1"
+									}
+								},
+								"external_id": "scala",
+								"soft_quit": "\nexit\n",
+								"suppress_echo": false,
+								"syntax": "Packages/Scala/Scala.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Scala/Scala.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/css/app.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 42,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 25.0
+	},
+	"pinned_build_system": "",
+	"project": "vajsintegration.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 47.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
