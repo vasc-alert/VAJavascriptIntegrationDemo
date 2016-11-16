@@ -32,7 +32,7 @@
           <!--form action = "http://127.0.0.1:5442/cgi-bin/WebObjects/VA7_201611_01.woa/wa/Integration/patientDetail" id="integrationform"  method="POST"-->
               <div class="form-group">
               <label for="facilityAPIKey">Facility API Key</label>
-              <input type="text" class="form-control" name="systemAPIKey" id="systemAPIKey" placeholder="System API Key" value="23c0ef38-ff23-421e-a716-0b75a54f21a9" aria-describedby="APIKEY_HELP"/>
+              <input type="text" class="form-control" name="systemAPIKey" id="systemAPIKey" placeholder="System API Key" value="23c0ef38-ff23-421e-a716-0b75a54f21a9" aria-describedby="APIKEY_HELP" onkeyup="encodedPostRequest()" />
               <p id="APIKEY_HELP" class="form-text text-muted">This key identifies your system to our system and is used as part of the
                 authorization process. It is possible to re-issue this API key if necessary, but that would invalidate all requests
                 made with the previous key.</p>
@@ -40,13 +40,13 @@
 
               <div class="form-group">
                 <label for="userId">User ID</label>
-                <input type="text" class="form-control" name="userId" id="userId" placeholder="User ID" value="localuser" aria-describedby="USERID_HELP"/>
+                <input type="text" class="form-control" name="userId" id="userId" placeholder="User ID" value="localuser" aria-describedby="USERID_HELP" onkeyup="encodedPostRequest()"/>
                 <p id="USERID_HELP" class="form-text text-muted">This is the username that you pass to our system. The user
                   may not yet exist in our system, but your system is vouching for the user and a "shadow account" will be created on our system if one does not yet exist.</p>
                 </div>
                 <div class="form-group">
                   <label for="facilityId">Facility Id</label>
-                  <input type="text" class="form-control" name="facilityId" id="facilityId" placeholder="Facility ID" value="155"
+                  <input type="text" class="form-control" name="facilityId" id="facilityId" placeholder="Facility ID" value="155" onkeyup="encodedPostRequest()"
                   aria-describedby="FACILITYID_HELP"/>
 
 
@@ -56,7 +56,7 @@
 
                 <div class="form-group">
                   <label for="mrn">MRN</label>
-                  <input type="text" class="form-control" name="mrn" id="mrn" placeholder="MRN (patient you are requesting info on)" value="VA-2724411KEF90B7" aria-describedby="MRN_HELP"/>
+                  <input type="text" class="form-control" name="mrn" id="mrn" placeholder="MRN (patient you are requesting info on)" value="VA-2724411KEF90B7" aria-describedby="MRN_HELP" onkeyup="encodedPostRequest()"/>
 
 
                   <p id="MRN_HELP" class="form-text text-muted">The MRN (Medical Record Number) is the unique patient identifier that the facility uses.</p>
@@ -126,7 +126,7 @@ function encodedPostRequest() {
   var REQUIRED_KEYS = [ "systemAPIKey", "facilityId", "userId", "mrn", "requestTime", "checksum" ];
   var rdata = collectValues();
   var encodedRdata = REQUIRED_KEYS.map((f) => { return f+"="+encodeURIComponent(rdata[f]); });
-
+  console.log("setting post data: ", encodedRdata);
   return encodedRdata.join("&");
 }
 
@@ -139,7 +139,7 @@ $('#postreq').val(encodedPostRequest());
 
                 <div class="container">
                 <div class="row">
-                <button   class="btn btn-primary float-right" >Send Request</button>
+                <button   onclick="encodedPostRequest(); submit();" class="btn btn-primary float-right" >Send Request</button>
 
                 </div>
                 <div class="row">
