@@ -25,6 +25,10 @@ requestTime: The current time of the request
 
 ### CHANGELOG
 
+#### 2018-01-13
+
+Minor edits to README.md including API
+
 #### 2016-11-14
 
 Generic POST example shows calculating checksum and encoding data payload for submitting (although if you just submit the form,
