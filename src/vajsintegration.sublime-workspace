@@ -148,55 +148,27 @@
 	"buffers":
 	[
 		{
-			"file": "index.js",
-			"settings":
-			{
-				"buffer_size": 87,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/.gitignore",
-			"settings":
-			{
-				"buffer_size": 46,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/index.html",
 			"settings":
 			{
-				"buffer_size": 3869,
+				"buffer_size": 7232,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/webpack.config.js",
+			"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/node_modules/dateformat/lib/dateformat.js",
 			"settings":
 			{
-				"buffer_size": 282,
+				"buffer_size": 6832,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Welcome to Scala 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_91).\nType in expressions for evaluation. Or try :help.\n\nscala> import java.security.MessageDigest\nimport java.security.MessageDigest\n\nscala> val md5 = MessageDigest.getInstance(\"MD5\")\nmd5: java.security.MessageDigest =\nMD5 Message Digest from SUN, <initialized>\n\nscala> val SYSID = \"LARRY's SYSTEM\"\nSYSID: String = LARRY's SYSTEM\n\nscala> val APIKEY = \"12345isisufsdjsalsdk\"\nAPIKEY: String = 12345isisufsdjsalsdk\n\nscala> m.update(SYSID.getBytes(\"UTF-8\"))\n<console>:14: error: not found: value m\n       m.update(SYSID.getBytes(\"UTF-8\"))\n       ^\n\nscala> md5.update(SYSID.getBytes(\"UTF-8\"))\n\nscala> md5\nres2: java.security.MessageDigest =\nMD5 Message Digest from SUN, <in progress>\n\nscala> md5.digest()\nres3: Array[Byte] = Array(-78, -118, 92, -82, 74, -59, 28, 74, 25, -26, 120, -25, 7, -70, 123, -58)\n\nscala> SYSID.getBytes(\"UTF-8\")\nres4: Array[Byte] = Array(76, 65, 82, 82, 89, 39, 115, 32, 83, 89, 83, 84, 69, 77)\n\nscala> ",
-			"settings":
-			{
-				"buffer_size": 994,
-				"line_ending": "Unix",
-				"name": "*REPL* [scala]",
-				"scratch": true
 			}
 		},
 		{
 			"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/css/app.css",
 			"settings":
 			{
-				"buffer_size": 42,
+				"buffer_size": 112,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -247,15 +219,23 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/node_modules",
 		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/node_modules/blueimp-md5",
 		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/node_modules/blueimp-md5/js",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/node_modules/dateformat",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/node_modules/dateformat/lib",
 		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/src"
 	],
 	"file_history":
 	[
-		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/.editorconfig",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/src/index.js",
 		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/webpack.config.js",
 		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/package.json",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/css/app.css",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/.gitignore",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/src/vajsintegration.sublime-project",
+		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/.editorconfig",
 		"/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/README.md",
 		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/facility.js",
 		"/Users/lmg42/Development/VascAlert/Online_Apps/VAQCService/WebServerResources/VA9/src/components/data_status.js",
@@ -376,11 +356,7 @@
 		"/Users/lmg42/Development/VascAlert/Illumen/CPE/vax_module_1/mobile/slides/6VIzzL3KD1l.js",
 		"/Users/lmg42/Desktop/CPEScoreFix.scala",
 		"/Users/lmg42/Development/VascAlert/VAQCStats2/client/components/data_summary_item.js",
-		"/Users/lmg42/Development/VascAlert/VAQCStats2/client/components/data_summary.js",
-		"/Users/lmg42/Development/VascAlert/VAQCStats2/client/components/data_summary_header.js",
-		"/Users/lmg42/Development/VascAlert/VAQCStats2/client/components/weekday_totals.js",
-		"/Users/lmg42/Development/VascAlert/VAQCStats2/package.json",
-		"/Users/lmg42/Development/VascAlert/VAQCStats2/client/main.html"
+		"/Users/lmg42/Development/VascAlert/VAQCStats2/client/components/data_summary.js"
 	],
 	"find":
 	{
@@ -455,80 +431,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 87,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23,
-								23
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/.gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 46,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								46,
-								46
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3869,
+						"buffer_size": 7232,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								465,
-								465
+								0,
+								0
 							]
 						],
 						"settings":
@@ -541,19 +456,19 @@
 							"trim_trailing_white_space_on_save": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1286.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/webpack.config.js",
+					"buffer": 1,
+					"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/node_modules/dateformat/lib/dateformat.js",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 282,
+						"buffer_size": 6832,
 						"regions":
 						{
 						},
@@ -577,109 +492,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 994,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								994,
-								994
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"auto_indent": false,
-							"detect_indentation": false,
-							"gutter": false,
-							"history_arrows": true,
-							"indent_subsequent_lines": false,
-							"line_numbers": false,
-							"repl": true,
-							"repl_external_id": "scala",
-							"repl_id": "eb44b248739e4083b7afb5cd41afd933",
-							"repl_restart_args":
-							{
-								"cmd":
-								{
-									"linux":
-									[
-										"scala"
-									],
-									"osx":
-									[
-										"scala"
-									],
-									"windows":
-									[
-										"scala.bat",
-										"-i"
-									]
-								},
-								"cmd_postfix": "\n",
-								"cwd": "$file_path",
-								"encoding": "utf8",
-								"extend_env":
-								{
-									"linux":
-									{
-										"EMACS": "1",
-										"PATH": "{PATH}:/usr/local/bin"
-									},
-									"osx":
-									{
-										"EMACS": "1",
-										"PATH": "{PATH}:/usr/local/bin"
-									},
-									"windows":
-									{
-										"EMACS": "1"
-									}
-								},
-								"external_id": "scala",
-								"soft_quit": "\nexit\n",
-								"suppress_echo": false,
-								"syntax": "Packages/Scala/Scala.tmLanguage",
-								"type": "subprocess"
-							},
-							"repl_sublime2": false,
-							"smart_indent": false,
-							"spell_check": false,
-							"syntax": "Packages/Scala/Scala.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
+					"buffer": 2,
 					"file": "/Users/lmg42/Development/VascAlert/Online_Apps/VAJavascriptIntegrationDemo/css/app.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 42,
+						"buffer_size": 112,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38,
-								38
+								108,
+								108
 							]
 						],
 						"settings":
@@ -695,7 +525,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -778,8 +608,8 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 290.0,
-	"status_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": false,
 	"template_settings":
 	{
 	}
