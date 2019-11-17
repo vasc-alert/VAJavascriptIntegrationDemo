@@ -25,6 +25,10 @@ requestTime: The current time of the request
 
 ### CHANGELOG
 
+#### 2019-07-25
+
+Update libraries to address security issues in dependencies like axios and webpack
+
 #### 2018-01-13
 
 Minor edits to README.md including API
