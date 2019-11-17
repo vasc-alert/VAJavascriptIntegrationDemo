@@ -25,6 +25,10 @@ requestTime: The current time of the request
 
 ### CHANGELOG
 
+#### 2019-11-17
+
+Update demo to reflect new information in testing facility IDs
+
 #### 2019-07-25
 
 Update libraries to address security issues in dependencies like axios and webpack
