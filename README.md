@@ -1,14 +1,13 @@
 # Vasc-Alert Javascript Integration Demo
 
-This is a very basic javascript project demonstrating ways to link into the Vasc-Alert Online service.
+This is a very basic javascript project demonstrating ways to link into the Vasc-Alert Online service. To see the integration, open the index.html file in a browser and click submit. You can change different parameters, but the API key and other defaults are setup to be successful with the current training data. Of course, links to live data will be setup with individual systems.
 
-This is an early iteration of this demo and includes one test case that uses a POST request to view a single patient detail report.
-More examples will be added as features/links are requested.
+This demo  includes one test case that uses a POST request to view a single patient detail report. There are a list of valid MRNs for testing, but this should give you a sense of how this works.
+
 
 This project depends on having Node.js (and npm) installed. npm will manage all the dependencies for you. You can get more information
 and download Node.js at [the official Nodejs website](https://nodejs.org/ "Official Nodejs Website").
 
-To get started with this project, type ```npm install``` in the root directory of the project.
 
 ### API
 
@@ -24,6 +23,10 @@ requestTime: The current time of the request
 
 
 ### CHANGELOG
+
+#### 2019-11-20
+
+updated master to current babel and webpack configurations
 
 #### 2019-11-17
 
